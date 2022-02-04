@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/templatemo-style.css" />
+    <link rel='stylesheet' href='css/myStyles.css'>
+    <script  src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    
     <title>Ryan Graue</title>
     
 <!--
@@ -68,11 +73,11 @@ https://templatemo.com/tm-530-mini-profile
         <div class="row">
           <div class="col-12">
             <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-green">
+              <div class="tm-portfolio-name text-white tm-bg-purple">
                 Ecommerce Support Developer
               </div>
               <div class="tm-portfolio-description">
-                <h3 class="tm-text-green">
+                <h3 class="tm-text-purple">
                  Evo
                   <span class="tm-title-small">January 2022 to present (part-time)</span>
                 </h3>
@@ -85,11 +90,11 @@ https://templatemo.com/tm-530-mini-profile
             </div>
 
             <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-orange">
+              <div class="tm-portfolio-name text-white tm-bg-deep">
                 Web Developer
               </div>
               <div class="tm-portfolio-description">
-                <h3 class="tm-text-orange">
+                <h3 class="tm-text-deep">
                   <a rel='nofollow' href='https://zwellhome.com/'>Zwell</a>
                   <span class="tm-title-small">September 2021 to present (part-time)</span>
                 </h3>
@@ -102,11 +107,11 @@ https://templatemo.com/tm-530-mini-profile
             </div>
 
             <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-green">
+              <div class="tm-portfolio-name text-white tm-bg-purple">
                 Ecommerce Developer Intern
               </div>
               <div class="tm-portfolio-description">
-                <h3 class="tm-text-green">
+                <h3 class="tm-text-purple">
                   Evo
                   <span class="tm-title-small">May 2021 to December 2021</span>
                 </h3>
@@ -115,14 +120,35 @@ https://templatemo.com/tm-530-mini-profile
                   The goal was for a business user to quickly see and understand of the given A/B test. The Dashboard was made 
                   in <strong>Data Studio</strong>, and used standardized data from a custom connection to <strong>Google Analytics</strong>.
                 </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                  Snapshot
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">A/B Dashboard</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <img src='img/dashboard.png' alt='dashbaord example' height='500px' width='auto'>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name text-white tm-bg-orange">
+              <div class="tm-portfolio-name text-white tm-bg-deep">
                 ImageCake
               </div> 
               <div class="tm-portfolio-description">
-                <h3 class="tm-text-orange">
+                <h3 class="tm-text-deep">
                   <a rel='nofollow' href='https://floating-dusk-66008.herokuapp.com/'>Procedually Generated Images</a>
                   <span class="tm-title-small">Personal Project</span>
                 </h3>
@@ -139,6 +165,8 @@ https://templatemo.com/tm-530-mini-profile
       </div>
     </section>
     <!-- End portfolio section -->
+
+   
 
     <!-- Contact section -->
     <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="img/footer-back.png">
@@ -163,16 +191,6 @@ https://templatemo.com/tm-530-mini-profile
             </div>
           </div>
         </div>
-        <!-- row -->
-        <div class="row">
-          <footer class="col-12">
-            <p class="text-center tm-copyright-text">
-            Copyright 2020 Mini Profile Page 
-            
-            - Design: Template Mo</p>
-          </footer>
-        </div>
-      </div>
       <!-- container -->
     </div>
     <!-- section -->
